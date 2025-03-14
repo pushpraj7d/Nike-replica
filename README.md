@@ -1,5 +1,5 @@
 
-[Click here to view the project](https://yourusername.github.io/repository-name/)
+[Click here to view the project](https://pushpraj7d.github.io/Nike-replica/)
 ## Overview
 The **Nike Clone** is a front-end web project that replicates the design and layout of Nike's official website. It features a modern and responsive user interface, including a navigation bar, product catalog, and an interactive shopping experience.
 

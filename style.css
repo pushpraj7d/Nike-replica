@@ -1,0 +1,193 @@
+body{
+    background-color: #d6d6d6;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.main-content{
+    /* display: flex; */
+    height: 100vh;
+    width: 100%;
+    background-color: #d6d6d6;
+    position: fixed;
+}
+
+.nav{
+    /* background-color: red; */
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+   
+}
+.icon{
+    width: 15%;
+}
+
+.nav-logo{
+    height: 3.5rem;
+    width: 3.5rem;
+    padding-left: 2rem;
+   
+}
+
+
+.menu-bar{
+    display: flex;
+    width: 60%;
+    
+}
+.menu-bar-p{
+    /* padding-left: 1.5rem; */
+    margin-left: 2rem;
+    font-weight: 700;
+    opacity: 0.5;
+    display: flex;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.menu-bar-p:hover{
+    opacity: 1;
+    scale: 1.050;
+}
+.control-bar{
+    width: 25%;
+    padding-left: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.control-bar-i{
+    padding-left: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.control-bar-i:hover{
+    opacity: 1;
+    scale: 1.080;
+
+}
+.second-layer{
+    display: flex;
+    overflow-x:hidden ;
+}
+
+.info{
+   height: 35rem;
+   width: 40%;
+   justify-content: center;
+   align-items: center;
+   /* background-color: blue; */
+
+}
+.info-card{
+height: 50%;
+width: 60%;
+margin: 7rem 0 0 4rem;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.infostart{
+    font-weight: 500;
+    opacity: 0.75;
+}
+
+.info-mid{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: -1.75rem;
+    word-spacing: 0.75rem;
+}
+.info-pera{
+    font-weight: 500;
+    opacity: 0.75;
+    margin-top: -1rem;
+    
+}
+.shop-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 2rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    font-weight: 550;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.shop-btn:hover{
+    scale: 1.05;
+    transform: rotate(2deg);
+    box-shadow: 2px 2px  5px rgb(11, 0, 0);
+}
+
+.product{
+    /* background-color: green; */
+    width: 60%;
+    height: 35rem;
+    overflow-x: hidden;
+}
+.card-slider{
+    /* background-color: peru; */
+    width: 39rem;
+    height: 20rem;
+    margin-top: 6rem;
+    padding-top: 2rem;
+    padding-right: 1.5rem;
+    padding-left: 0.30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    position: absolute;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.card-slider::-webkit-scrollbar{
+   display: none;
+}
+
+
+.card{
+    height: 19rem;
+    background-color: #bebebe;
+    width: 12rem;
+    margin-left: 1.25rem;
+    box-shadow: 0 0  8px black;
+    cursor: pointer;
+    transition: 0.25s;
+ 
+}
+.card:hover{
+    scale: 1.025;
+    transform: translateY(-1rem);
+}
+.card-img{
+    width: 12rem;
+    height: 12rem;
+}
+.card h3{
+    margin-top: -0.05rem;
+    padding-left: 0.5rem;
+}
+.card p{
+    margin-top: -0.5rem;
+    font-weight: 500;
+    opacity: 0.75;
+    padding-left: 0.5rem;
+
+}
+.card h5{
+    padding-left: 0.5rem;
+
+    margin-top: -0.05rem;
+}
